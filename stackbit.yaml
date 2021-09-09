@@ -1,0 +1,93 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match:
+      - 2015-01-07-dica-rapida-1.md
+      - 2015-01-08-por-que-usar-svg.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: datetime
+        name: date
+        label: Date
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: main-class
+        label: Main Class
+      - type: string
+        name: color
+        label: Color
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+      - type: string
+        name: twitter_text
+        label: Twitter Text
+      - type: string
+        name: introduction
+        label: Introduction
+      - type: image
+        name: image
+        label: Image
+      - type: list
+        name: categories
+        label: Categories
+        items:
+          type: string
+  post_1:
+    type: page
+    label: Post 1
+    folder: _posts
+    match:
+      - 2015-02-09-social-meta-tags.md
+      - 2015-12-04-analisando-seu-codigo-js-com-linter.md
+      - 2016-05-08-how-to-use.md
+      - 2016-05-08-welcome-to-jekyll.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: datetime
+        name: date
+        label: Date
+      - type: string
+        name: image
+        label: Image
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: main-class
+        label: Main Class
+      - type: string
+        name: color
+        label: Color
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+      - type: string
+        name: twitter_text
+        label: Twitter Text
+      - type: string
+        name: introduction
+        label: Introduction
